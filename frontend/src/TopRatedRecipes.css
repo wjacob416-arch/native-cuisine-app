@@ -1,0 +1,126 @@
+
+.top-rated-recipes {
+    margin-bottom: 30px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .top-rated-recipes h2 {
+    color: #8b4513;
+    margin-top: 0;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .loading-top-recipes {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+  }
+  
+  .loading-top-recipes .spinner {
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+  }
+  
+  .no-top-recipes {
+    padding: 15px;
+    background-color: #f9f5f0;
+    border-radius: 4px;
+    text-align: center;
+    color: #666;
+  }
+  
+  .top-recipes-list {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .top-recipe-item {
+    display: flex;
+    align-items: center;
+    padding: 15px;
+    background-color: #f9f5f0;
+    border-radius: 4px;
+    transition: transform 0.2s;
+  }
+  
+  .top-recipe-item:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .top-recipe-rank {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 30px;
+    height: 30px;
+    background-color: #8b4513;
+    color: white;
+    border-radius: 50%;
+    font-weight: bold;
+    margin-right: 15px;
+  }
+  
+  .top-recipe-info {
+    flex: 1;
+  }
+  
+  .top-recipe-name {
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 5px;
+  }
+  
+  .top-recipe-rating {
+    display: flex;
+    align-items: center;
+  }
+  
+  .star {
+    color: #ccc;
+    font-size: 1.2em;
+    margin-right: 2px;
+  }
+  
+  .star.filled {
+    color: #f8b500;
+  }
+  
+  .rating-value {
+    margin-left: 5px;
+    color: #666;
+  }
+  
+  
+  .top-recipe-item:nth-child(1) .top-recipe-rank {
+    background-color: #ffd700;
+    color: #333;
+  }
+  
+  .top-recipe-item:nth-child(2) .top-recipe-rank {
+    background-color: #c0c0c0;
+    color: #333;
+  }
+  
+  .top-recipe-item:nth-child(3) .top-recipe-rank {
+    background-color: #cd7f32; 
+  }
+  
+
+  @media (max-width: 768px) {
+    .top-rated-recipes {
+      padding: 15px;
+    }
+  
+    .top-recipe-item {
+      padding: 10px;
+    }
+  }
+  

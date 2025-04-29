@@ -1,0 +1,43 @@
+.pantry-tracker {
+    background:#fff;
+    border-radius:8px;
+    box-shadow:0 2px 6px rgba(0,0,0,.15);
+    padding:20px;
+    margin-bottom:30px;
+  }
+  .pantry-header {
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    margin-bottom:10px;
+  }
+  .close-btn {
+    background:none;
+    border:none;
+    font-size:1.2rem;
+    cursor:pointer;
+  }
+  .pantry-body {
+    display:flex;
+    flex-direction:column;
+    gap:8px;
+    max-height:400px;
+    overflow-y:auto;
+  }
+  .pantry-row {
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+  }
+  .pantry-name {
+    flex:1 1 auto;
+  }
+  .pantry-input {
+    width:70px;
+    padding:4px 6px;
+  }
+  .empty-note {
+    color:#666;
+    font-style:italic;
+  }
+  

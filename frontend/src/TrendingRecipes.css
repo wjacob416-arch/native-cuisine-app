@@ -1,0 +1,128 @@
+/*
+.trending-recipes {
+    margin-bottom: 30px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .trending-recipes h2 {
+    color: #8b4513;
+    margin: 0 0 20px;
+    text-align: center;
+  }
+  
+  .loading-trending {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+  }
+  
+  .loading-trending .spinner {
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+    border: 4px solid rgba(139, 69, 19, 0.3);
+    border-top-color: #8b4513;
+    border-radius: 50%;
+    animation: spin 1s linear infinite;
+  }
+  
+  @keyframes spin {
+    to {
+      transform: rotate(360deg);
+    }
+  }
+  
+  .no-trending {
+    padding: 15px;
+    background-color: #f9f5f0;
+    border-radius: 4px;
+    text-align: center;
+    color: #666;
+  }
+  
+  .trending-list {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .trending-item {
+    display: flex;
+    align-items: center;
+    padding: 15px;
+    background-color: #f9f5f0;
+    border-radius: 4px;
+    transition: transform 0.2s;
+  }
+  
+  .trending-item:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .trending-rank {
+    width: 30px;
+    height: 30px;
+    background-color: #8b4513;
+    color: #fff;
+    border-radius: 50%;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 15px;
+  }
+  
+  .trending-info {
+    flex: 1;
+  }
+  
+  .trending-name {
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 5px;
+  }
+  
+  .trending-rating {
+    display: flex;
+    align-items: center;
+  }
+  
+  .star {
+    color: #ccc;
+    font-size: 1.2em;
+    margin-right: 2px;
+  }
+  
+  .star.filled {
+    color: #f8b500;
+  }
+  
+  .rating-value {
+    margin-left: 5px;
+    color: #666;
+  }
+  
+ 
+  .trending-item:nth-child(1) .trending-rank {
+    background-color: #ffd700;
+    color: #333;
+  }
+  .trending-item:nth-child(2) .trending-rank {
+    background-color: #c0c0c0;
+    color: #333;
+  }
+  .trending-item:nth-child(3) .trending-rank {
+    background-color: #cd7f32;
+  }
+  
+ 
+  @media (max-width: 768px) {
+    .trending-recipes { padding: 15px; }
+    .trending-item    { padding: 10px; }
+  }
+  */
