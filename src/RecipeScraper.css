@@ -1,0 +1,141 @@
+.recipe-scraper {
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .recipe-scraper h2 {
+    color: #8b4513;
+    margin-top: 0;
+  }
+  
+  .recipe-scraper p {
+    margin-bottom: 15px;
+    color: #666;
+  }
+  
+  .tab-buttons {
+    display: flex;
+    margin-bottom: 15px;
+  }
+  
+  .tab-button {
+    padding: 8px 16px;
+    background-color: #f0f0f0;
+    border: 1px solid #ddd;
+    cursor: pointer;
+  }
+  
+  .tab-button:first-child {
+    border-radius: 4px 0 0 4px;
+  }
+  
+  .tab-button:last-child {
+    border-radius: 0 4px 4px 0;
+  }
+  
+  .tab-button.active {
+    background-color: #8b4513;
+    color: white;
+    border-color: #8b4513;
+  }
+  
+  .scraper-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  .urls-textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-family: monospace;
+    font-size: 14px;
+  }
+  
+  .max-recipes {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .max-recipes-input {
+    width: 80px;
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+  }
+  
+  .scrape-button,
+  .load-predefined-button {
+    background-color: #8b4513;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    padding: 10px 15px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+    align-self: flex-start;
+  }
+  
+  .load-predefined-button {
+    background-color: #6b5b95;
+    margin-bottom: 15px;
+  }
+  
+  .scrape-button:hover,
+  .load-predefined-button:hover {
+    background-color: #6b3100;
+  }
+  
+  .load-predefined-button:hover {
+    background-color: #574a79;
+  }
+  
+  .scrape-button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+  }
+  
+  .error-message {
+    color: #c62828;
+    background-color: #ffebee;
+    padding: 10px;
+    border-radius: 4px;
+    margin-top: 15px;
+  }
+  
+  .result-message {
+    margin-top: 20px;
+    padding: 15px;
+    background-color: #e8f5e9;
+    border-radius: 4px;
+    border-left: 4px solid #4caf50;
+  }
+  
+  .result-message h3 {
+    color: #2e7d32;
+    margin-top: 0;
+  }
+  
+  .new-recipes {
+    margin-top: 15px;
+  }
+  
+  .new-recipes h4 {
+    color: #8b4513;
+    margin-bottom: 10px;
+  }
+  
+  .new-recipes ul {
+    list-style-type: disc;
+    padding-left: 20px;
+  }
+  
+  .new-recipes li {
+    margin-bottom: 5px;
+  }

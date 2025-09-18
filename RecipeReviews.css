@@ -1,0 +1,98 @@
+.recipe-reviews {
+    margin-top: 20px;
+    padding: 15px;
+    background-color: #f9f5f0;
+    border-radius: 8px;
+  }
+  
+  .recipe-reviews h3 {
+    color: #8b4513;
+    margin-top: 0;
+    margin-bottom: 15px;
+  }
+  
+  .average-rating {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    padding: 10px;
+    background-color: #fff;
+    border-radius: 4px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  }
+  
+  .average-rating p {
+    margin: 0;
+    margin-right: 15px;
+    font-weight: bold;
+  }
+  
+  .loading-reviews {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+  }
+  
+  .loading-reviews .spinner {
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+  }
+  
+  .no-reviews {
+    padding: 15px;
+    background-color: #fff;
+    border-radius: 4px;
+    text-align: center;
+    color: #666;
+  }
+  
+  .reviews-list {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  .review-item {
+    padding: 15px;
+    background-color: #fff;
+    border-radius: 4px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  }
+  
+  .review-header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+  }
+  
+  .review-user {
+    font-weight: bold;
+    color: #8b4513;
+  }
+  
+  .review-date {
+    color: #777;
+    font-size: 0.9em;
+  }
+  
+  .review-rating {
+    margin-bottom: 10px;
+  }
+  
+  .star {
+    color: #ccc;
+    font-size: 1.2em;
+    margin-right: 2px;
+  }
+  
+  .star.filled {
+    color: #f8b500;
+  }
+  
+  .review-comment {
+    color: #333;
+    line-height: 1.5;
+  }
+  

@@ -1,0 +1,82 @@
+.recipe-importer {
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .recipe-importer h2 {
+    color: #8b4513;
+    margin-top: 0;
+  }
+  
+  .import-form {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .url-input {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+  }
+  
+  .import-button,
+  .add-button {
+    background-color: #8b4513;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    padding: 10px 15px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+  }
+  
+  .import-button:hover,
+  .add-button:hover {
+    background-color: #6b3100;
+  }
+  
+  .import-button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+  }
+  
+  .error-message {
+    color: #c62828;
+    background-color: #ffebee;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 15px;
+  }
+  
+  .imported-recipe {
+    border: 1px solid #e0e0e0;
+    border-radius: 4px;
+    padding: 15px;
+    margin-top: 20px;
+  }
+  
+  .imported-recipe h3 {
+    color: #8b4513;
+    margin-top: 0;
+  }
+  
+  .ingredients,
+  .instructions {
+    margin-bottom: 15px;
+  }
+  
+  .ingredients h4,
+  .instructions h4 {
+    color: #8b4513;
+    margin-bottom: 10px;
+  }
+  
+  .add-button {
+    margin-top: 10px;
+  }
+  
