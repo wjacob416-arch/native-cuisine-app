@@ -1,0 +1,15 @@
+# Ignore Python cache
+__pycache__/
+
+# Ignore Node modules
+node_modules/
+
+# Ignore database files
+*.db
+
+# Ignore build output (React)
+frontend/build/
+
+# Ignore OS/editor junk
+.DS_Store
+Thumbs.db
